@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+    background-color: lightgray;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: darkslategray;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 5cm;
+}
+
+button {
+    padding: 30px 60px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.userResult {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2cm;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.roundResult {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: monospace;
+}
+
+.winResult {
+    display: flex;
+    justify-content: center;
+    font-family:cursive;
+    margin-top: 55px;
+    color: green;
+    font-size: 30px;
+}
+
+#loseResult {
+    color: red;
+    margin-top: 55px;
+}
