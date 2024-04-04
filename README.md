@@ -1,2 +1,2 @@
 # rockPaperScissors_Project
-first js project
+rockPaperScissors from the odin project
